@@ -665,7 +665,7 @@ NSDataDetector* sharedReusableDataDetector(NSTextCheckingTypes types)
 	[super setTextAlignment:alignment]; // will call setNeedsDisplay too
 }
 
--(void)setLineBreakMode:(UILineBreakMode)lineBreakMode
+-(void)setLineBreakMode:(NSLineBreakMode)lineBreakMode
 {
     if (_attributedText)
     {
