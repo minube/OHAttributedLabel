@@ -651,7 +651,7 @@ NSDataDetector* sharedReusableDataDetector(NSTextCheckingTypes types)
 	[super setTextColor:color]; // will call setNeedsDisplay too
 }
 
--(void)setTextAlignment:(UITextAlignment)alignment
+-(void)setTextAlignment:(NSTextAlignment)alignment
 {
     if (_attributedText)
     {
